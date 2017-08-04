@@ -51,7 +51,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts 1\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts 1\GeneratorScript.cs" />
+     <Compile Include="Assets\Scripts 1\LaserScript.cs" />
+     <Compile Include="Assets\Scripts 1\MouseController.cs" />
+     <Compile Include="Assets\Scripts 1\ParallaxScroll.cs" />
+     <Compile Include="Assets\Scripts 1\ParticleSortingLayerFIx.cs" />
+     <Compile Include="Assets\Scripts 1\UIManagerScript.cs" />
      <Compile Include="Assets\Scripts\UIManagerScript.cs" />
+     <Compile Include="Assets\UIManagerScript.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
