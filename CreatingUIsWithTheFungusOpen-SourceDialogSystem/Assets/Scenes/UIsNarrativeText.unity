@@ -326,6 +326,7 @@ GameObject:
   - component: {fileID: 1978768222}
   - component: {fileID: 1978768221}
   - component: {fileID: 1978768220}
+  - component: {fileID: 1978768224}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -398,9 +399,10 @@ MonoBehaviour:
   commandList:
   - {fileID: 1978768221}
   - {fileID: 1978768220}
+  - {fileID: 1978768224}
 --- !u!114 &1978768220
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1978768217}
@@ -425,7 +427,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1978768221
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1978768217}
@@ -475,3 +477,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1978768224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1978768217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3
+  indentLevel: 0
+  storyText: So great, but is a busy day?
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  setSayDialog: {fileID: 0}
