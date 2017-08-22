@@ -338,6 +338,52 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &388294034
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4981469680508154, guid: 32fecde408941ab4a8539ca168c8a5bd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -5.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 4981469680508154, guid: 32fecde408941ab4a8539ca168c8a5bd, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 4981469680508154, guid: 32fecde408941ab4a8539ca168c8a5bd, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 2.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 4981469680508154, guid: 32fecde408941ab4a8539ca168c8a5bd, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4981469680508154, guid: 32fecde408941ab4a8539ca168c8a5bd, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4981469680508154, guid: 32fecde408941ab4a8539ca168c8a5bd, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4981469680508154, guid: 32fecde408941ab4a8539ca168c8a5bd, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4981469680508154, guid: 32fecde408941ab4a8539ca168c8a5bd, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643441999371856, guid: 32fecde408941ab4a8539ca168c8a5bd, type: 2}
+      propertyPath: m_Name
+      value: Sphere
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 32fecde408941ab4a8539ca168c8a5bd, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &394307465
 Prefab:
   m_ObjectHideFlags: 0
@@ -708,8 +754,9 @@ Transform:
 --- !u!1 &1988519588
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 1643441999371856, guid: 32fecde408941ab4a8539ca168c8a5bd,
+    type: 2}
+  m_PrefabInternal: {fileID: 388294034}
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1988519592}
@@ -726,8 +773,9 @@ GameObject:
 --- !u!23 &1988519589
 MeshRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 23374308356132656, guid: 32fecde408941ab4a8539ca168c8a5bd,
+    type: 2}
+  m_PrefabInternal: {fileID: 388294034}
   m_GameObject: {fileID: 1988519588}
   m_Enabled: 1
   m_CastShadows: 1
@@ -758,8 +806,9 @@ MeshRenderer:
 --- !u!135 &1988519590
 SphereCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 135633962819191144, guid: 32fecde408941ab4a8539ca168c8a5bd,
+    type: 2}
+  m_PrefabInternal: {fileID: 388294034}
   m_GameObject: {fileID: 1988519588}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -770,15 +819,17 @@ SphereCollider:
 --- !u!33 &1988519591
 MeshFilter:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 33978963223103010, guid: 32fecde408941ab4a8539ca168c8a5bd,
+    type: 2}
+  m_PrefabInternal: {fileID: 388294034}
   m_GameObject: {fileID: 1988519588}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1988519592
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 4981469680508154, guid: 32fecde408941ab4a8539ca168c8a5bd,
+    type: 2}
+  m_PrefabInternal: {fileID: 388294034}
   m_GameObject: {fileID: 1988519588}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.06, y: 0.46, z: 2.47}
