@@ -51,7 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\ControlPanel.cs" />
+     <Compile Include="Assets\Scripts\controlPanel.cs" />
      <Compile Include="Assets\Scripts\toMoveTheGameObject.cs" />
      <Compile Include="Assets\Scripts\TransitionController.cs" />
      <Compile Include="Assets\Scripts\VirtualJoystick.cs" />
@@ -102,6 +102,7 @@
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+     <None Include="Assets\StreamingAssets\Vuforia\windCone.xml" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

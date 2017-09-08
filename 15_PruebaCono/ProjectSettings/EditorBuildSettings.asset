@@ -6,5 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/FuncionMedio.unity
+    path: Assets/Scenes/windCone.unity
+    guid: dd40c42e8d9f2c244b6431d524949e37
+  - enabled: 1
+    path: Assets/Scenes/windConeAR.unity
     guid: 304560899e85ef446ba6e0924ad961f7

@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TransitionController : MonoBehaviour {
 
-    public Animator ButtonPanel;
+    //public Animator panel;
     //Animator ConoExplodedView
     public Animator ani;
     //GameObject Slider
@@ -12,18 +13,18 @@ public class TransitionController : MonoBehaviour {
     //varClas to control the speed 
     private float speedSlider;
 
-    public void animacionPanel()
-    {
-        if (ButtonPanel.GetBool("isHidden"))
-        {
-            ButtonPanel.SetBool("isHidden", false);
-        }
-        else
-        {
-            ButtonPanel.SetBool("isHidden", true);
-        }
-        print("Este es el hidden: " + ButtonPanel.GetBool("isHidden"));
-    }
+    //public void animacionPanel()
+    //{
+    //    if (panel.GetBool("isHidden"))
+    //    {
+    //        panel.SetBool("isHidden", false);
+    //    }
+    //    else
+    //    {
+    //        panel.SetBool("isHidden", true);
+    //    }
+    //    print("Este es el hidden: " + panel.GetBool("isHidden"));
+    //}
 
     private void NecesarioParaCambio() {
         //Para regresar a un estado quieto
@@ -46,9 +47,6 @@ public class TransitionController : MonoBehaviour {
 
     private void cambioSlider() {
         slider.value = 0;
-        //slider.minValue = -1;
-        //slider.maxValue = 1;
-        //ani.SetFloat("speed", 0);
     }
 
     public void ChangeTransition(string nameTrasition){
@@ -123,6 +121,15 @@ public class TransitionController : MonoBehaviour {
             case "quieto":
                 NecesarioParaCambio();
                 break;
+        }
+    }
+
+    public void changeScene(int actual)
+    {
+        if(actual == 0){
+            SceneManager.LoadScene(1);
+        }else{
+            SceneManager.LoadScene(0);
         }
     }
 
