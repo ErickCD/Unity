@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scene/CreateASquart.unity
+    guid: 731bf3ec36d66624bbac24a4996cd0b4
+  - enabled: 1
+    path: Assets/Scene/CreateACube.unity
+    guid: 2b7626b3a7b1eed4fa0932335473333d
