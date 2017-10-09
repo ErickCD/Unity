@@ -13,19 +13,6 @@ public class TransitionController : MonoBehaviour {
     //varClas to control the speed 
     private float speedSlider;
 
-    //public void animacionPanel()
-    //{
-    //    if (panel.GetBool("isHidden"))
-    //    {
-    //        panel.SetBool("isHidden", false);
-    //    }
-    //    else
-    //    {
-    //        panel.SetBool("isHidden", true);
-    //    }
-    //    print("Este es el hidden: " + panel.GetBool("isHidden"));
-    //}
-
     private void NecesarioParaCambio() {
         //Para regresar a un estado quieto
         ani.SetBool("Quieto", true);
@@ -113,10 +100,13 @@ public class TransitionController : MonoBehaviour {
                 NecesarioParaCambio();
                 ani.SetBool("Quieto", false);
                 ani.SetBool("explosion", true);
-                //if (speedSlider > -0.1 || speedSlider < 0.1)
-                //{
-                //    speedSlider = 0.2f;
-                //}
+                break;
+            case "salir":
+                print("Entro a la parte de salir");
+                //NecesarioParaCambio();
+                //ani.SetBool("Quieto", false);
+                //ani.SetBool("salir", true);
+                Application.Quit();
                 break;
             case "quieto":
                 NecesarioParaCambio();
@@ -143,12 +133,5 @@ public class TransitionController : MonoBehaviour {
             ChangeTransition("exploded");
             ani.SetFloat("speed", speedSlider);
         }
-        //if (speedSlider < 0.1 && speedSlider > -0.1)
-        //{
-        //    print(speedSlider);
-        //    //ChangeTransition("quieto");
-        //    ChangeTransition("exploded");
-        //    ani.SetFloat("speed", speedSlider);
-        //}
     }
 }
