@@ -11,8 +11,8 @@ public class createATorus : MonoBehaviour {
 
         float radius1 = 1f;
         float radius2 = .3f;
-        int nbRadSeg = 8;
-        int nbSides = 6;
+        int nbRadSeg = 24;
+        int nbSides = 18;
 
         #region Vertices
         Vector3[] vertices = new Vector3[(nbRadSeg + 1) * (nbSides + 1)];

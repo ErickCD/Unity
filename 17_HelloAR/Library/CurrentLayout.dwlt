@@ -71,7 +71,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 23
+  controlID: 59
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 24
+  controlID: 60
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 25
+  controlID: 61
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -364,9 +364,9 @@ MonoBehaviour:
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 58270000
-    m_LastClickedID: 10072
-    m_ExpandedIDs: 00000000b80700007a080000d8270000002800001028000022280000242800003c28000042280000562800007c280000c0280000d2280000d62800009e290000b8290000ca290000e2290000e429000000ca9a3bffffff7f
+    m_SelectedIDs: 68270000
+    m_LastClickedID: 10088
+    m_ExpandedIDs: 00000000b80700007a08000068270000e8270000102800002028000032280000342800004c28000052280000662800008c280000d0280000e2280000e6280000ae290000c8290000da290000f2290000f429000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -394,7 +394,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b80700007a08000058270000d8270000002800001028000022280000242800003c28000042280000562800007c280000c0280000d2280000d62800009e290000b8290000ca290000e2290000e4290000
+    m_ExpandedIDs: 00000000b80700007a080000e8270000102800002028000032280000342800004c28000052280000662800008c280000d0280000e2280000e6280000ae290000c8290000da290000f2290000f4290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -505,23 +505,23 @@ MonoBehaviour:
     height: 383
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 1afcffff00000000
+    m_SelectedIDs: f4fbffff
+    m_LastClickedID: -1036
+    m_ExpandedIDs: 12fcffff14fcffff16fcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: ARCamera
+      m_OriginalName: ARCamera
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -1004
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -557,14 +557,14 @@ MonoBehaviour:
     width: 688
     height: 383
   m_SceneLighting: 0
-  lastFramingTime: 10207.060119240532
+  lastFramingTime: 59.721071262068236
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.43164062, y: 0.35998535, z: 0.8117218}
+    m_Target: {x: 0.94130135, y: -0.36523438, z: 1.5234375}
     speed: 2
-    m_Value: {x: 0.43164062, y: 0.35998535, z: 0.8117218}
+    m_Value: {x: 0.94130135, y: -0.36523438, z: 1.5234375}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -587,13 +587,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.13688949, y: 0.6727315, z: -0.12868282, w: 0.7156428}
+    m_Target: {x: 0.42548496, y: 0.0027148896, z: -0.00127646, w: 0.9049604}
     speed: 2
-    m_Value: {x: 0.13688949, y: 0.6727315, z: -0.12868282, w: 0.7156428}
+    m_Value: {x: 0.42548501, y: 0.0027148898, z: -0.0012764601, w: 0.9049605}
   m_Size:
-    m_Target: 2.0618374
+    m_Target: 3.355142
     speed: 2
-    m_Value: 2.0618374
+    m_Value: 3.355142
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -634,12 +634,8 @@ MonoBehaviour:
     m_KeySerializationHelper: []
     m_ValueSerializationHelper: []
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 0205c25c0406e564ba9e446074a2e4f0,
-    type: 2}
-  m_BreadCrumbs:
-  - m_Target: {fileID: 1107339768945275746, guid: 0205c25c0406e564ba9e446074a2e4f0,
-      type: 2}
-    m_ScrollPosition: {x: 0, y: 0}
+  m_AnimatorController: {fileID: 0}
+  m_BreadCrumbs: []
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
   blendTreeGraph: {fileID: 0}

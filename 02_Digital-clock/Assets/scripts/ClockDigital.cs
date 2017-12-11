@@ -8,12 +8,12 @@ public class ClockDigital : MonoBehaviour {
 
     private Text textClock;
 
-	// Use this for initialization
+	//Se inicializa el código
 	void Start () {
         textClock = GetComponent<Text>();
 	}
 	
-	// Update is called once per frame
+	// Se actualiza una vez por frame
 	void Update () {
         DateTime time = DateTime.Now;
         String hour = LeadingZero(time.Hour);

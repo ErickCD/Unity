@@ -67,6 +67,7 @@ public class newTuve : MonoBehaviour {
         float x = 6f;
         bool uno = true, dos = false, tres = false;
         while (contadorDeAgregarCapas < cantidadDeCapas){
+			/*
             if (uno){
                 capaCurva(0f);
                 uno = contadorDeAgregarCapas == 10 ? false : true;
@@ -78,6 +79,26 @@ public class newTuve : MonoBehaviour {
             } else if (tres) {
                 capaCurva(0f);
             }
+			*/
+			//Temporal
+
+			if (uno){
+				radius = 3f;
+				capaCurva(0f);
+				uno = contadorDeAgregarCapas <= 100 ? false : true;
+				dos = uno == false ? true : false;
+			} else if (dos) {
+				radius = 3.2f;
+				capaCurva(0f);
+				dos = contadorDeAgregarCapas == 150 ? false : true;
+				tres = dos == false ? true : false;
+			} else if (tres) {
+				radius = 2.8f;
+				capaCurva(0f);
+				tres = contadorDeAgregarCapas == 200 ? false : true;
+				uno = tres == false ? true : false;
+			}
+				
             contadorDeAgregarCapas++;
         }
 
@@ -94,7 +115,7 @@ public class newTuve : MonoBehaviour {
         vertices = new Vector3[nbVerticesSides];
         //Guarda nuevas alturas
         alturas = new float[nbVerticesSides];
-        float alturaActual = 1;
+        float alturaActual = 0.01f;
 
         if (gradosTotales >= 112.5f)
         {
@@ -122,7 +143,7 @@ public class newTuve : MonoBehaviour {
         }
         else if (gradosTotales >= 0)
         {
-            alturaActual = alturaActual + 1f;
+            alturaActual = alturaActual + 0.01f;
         }
 
         print("Grados totales son: " + gradosTotales + " y la altura es: " + alturaActual);
