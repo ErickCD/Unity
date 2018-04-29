@@ -1,11 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_DisplayingARadarToIndicateTheRelativeLocationsOfObjects", "Assembly-CSharp-firstpass.csproj", "{98EA763B-5C1C-13B4-DE20-E10EA4234BBF}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_DisplayingARadarToIndicateTheRelativeLocationsOfObjects.Plugins", "11_DisplayingARadarToIndicateTheRelativeLocationsOfObjects.Plugins.csproj", "{CFFD6BB7-C205-980E-E853-279276C901A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_DisplayingARadarToIndicateTheRelativeLocationsOfObjects", "Assembly-CSharp.csproj", "{B71ACFF4-30DE-3534-EB6D-48B7432A5631}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_DisplayingARadarToIndicateTheRelativeLocationsOfObjects", "11_DisplayingARadarToIndicateTheRelativeLocationsOfObjects.csproj", "{5510597C-C1D3-AC80-C5D2-C4333D8BEAAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_DisplayingARadarToIndicateTheRelativeLocationsOfObjects", "Assembly-CSharp-Editor-firstpass.csproj", "{4036F47C-97EA-07B5-AFE3-D1CECB824ACD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_DisplayingARadarToIndicateTheRelativeLocationsOfObjects.Editor.Plugins", "11_DisplayingARadarToIndicateTheRelativeLocationsOfObjects.Editor.Plugins.csproj", "{C8D800DD-A143-DC2C-66F5-2EA20BD19380}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,23 +13,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{98EA763B-5C1C-13B4-DE20-E10EA4234BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{98EA763B-5C1C-13B4-DE20-E10EA4234BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{98EA763B-5C1C-13B4-DE20-E10EA4234BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{98EA763B-5C1C-13B4-DE20-E10EA4234BBF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B71ACFF4-30DE-3534-EB6D-48B7432A5631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B71ACFF4-30DE-3534-EB6D-48B7432A5631}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B71ACFF4-30DE-3534-EB6D-48B7432A5631}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B71ACFF4-30DE-3534-EB6D-48B7432A5631}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4036F47C-97EA-07B5-AFE3-D1CECB824ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4036F47C-97EA-07B5-AFE3-D1CECB824ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4036F47C-97EA-07B5-AFE3-D1CECB824ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4036F47C-97EA-07B5-AFE3-D1CECB824ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFFD6BB7-C205-980E-E853-279276C901A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFFD6BB7-C205-980E-E853-279276C901A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFFD6BB7-C205-980E-E853-279276C901A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFFD6BB7-C205-980E-E853-279276C901A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5510597C-C1D3-AC80-C5D2-C4333D8BEAAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5510597C-C1D3-AC80-C5D2-C4333D8BEAAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5510597C-C1D3-AC80-C5D2-C4333D8BEAAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5510597C-C1D3-AC80-C5D2-C4333D8BEAAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8D800DD-A143-DC2C-66F5-2EA20BD19380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D800DD-A143-DC2C-66F5-2EA20BD19380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D800DD-A143-DC2C-66F5-2EA20BD19380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D800DD-A143-DC2C-66F5-2EA20BD19380}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

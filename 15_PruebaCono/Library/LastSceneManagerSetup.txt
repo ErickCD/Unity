@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/windConeAR.unity
+- path: Assets/Scenes/windCone.unity
   isLoaded: 1
   isActive: 1

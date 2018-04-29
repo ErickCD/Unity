@@ -71,7 +71,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 59
+  controlID: 23
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 60
+  controlID: 24
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 61
+  controlID: 25
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -363,10 +363,10 @@ MonoBehaviour:
   m_LastProjectPath: F:\Documentos\Unity\17_HelloAR
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 68270000
-    m_LastClickedID: 10088
-    m_ExpandedIDs: 00000000b80700007a08000068270000e8270000102800002028000032280000342800004c28000052280000662800008c280000d0280000e2280000e6280000ae290000c8290000da290000f2290000f429000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 11}
+    m_SelectedIDs: 5e270000
+    m_LastClickedID: 10078
+    m_ExpandedIDs: 00000000b80700007a0800005e270000de2700000628000016280000282800002a28000042280000c6280000dc280000a4290000be290000d0290000e829000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -394,7 +394,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b80700007a080000e8270000102800002028000032280000342800004c28000052280000662800008c280000d0280000e2280000e6280000ae290000c8290000da290000f2290000f4290000
+    m_ExpandedIDs: 00000000b80700007a0800005e270000de2700000628000016280000282800002a28000042280000482800005c28000082280000c6280000d8280000dc280000a4290000be290000d0290000e8290000ea290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -505,23 +505,23 @@ MonoBehaviour:
     height: 383
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f4fbffff
-    m_LastClickedID: -1036
-    m_ExpandedIDs: 12fcffff14fcffff16fcffff00000000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 1afcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: ARCamera
-      m_OriginalName: ARCamera
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -1004
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -589,7 +589,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.42548496, y: 0.0027148896, z: -0.00127646, w: 0.9049604}
     speed: 2
-    m_Value: {x: 0.42548501, y: 0.0027148898, z: -0.0012764601, w: 0.9049605}
+    m_Value: {x: -0.42548493, y: -0.0027148896, z: 0.0012764599, w: -0.90496033}
   m_Size:
     m_Target: 3.355142
     speed: 2

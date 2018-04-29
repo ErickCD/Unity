@@ -1,10 +1,10 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuActions : MonoBehaviour {
 
     public void MENU_ACTION_GotoPage(string sceneName){
-        Application.LoadLevel(sceneName);
-        //SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene(sceneName);
     }
+
 }
